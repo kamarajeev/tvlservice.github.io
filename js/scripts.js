@@ -6,7 +6,6 @@
 //
 // Scripts
 // 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -57,3 +56,30 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+/*function emailSend(){
+    alert('adsf');
+    $('#submitButton').click(function() {
+        $('#contactForm').attr('action',
+                       'mailto:besthomeappliances95@gmail.com?subject=Customer'+ $('#name').val() + +'has been submitted details'+ '&body= Email: '  + $('#email').val()+'\n'+
+                       'Phone: '+ $('#phone').val()+'\n'+'Address : '+ $('#address').val());
+        $('#contactForm').submit();
+    });
+}*/
+
+/*function sendEmail() {
+    alert('cal');
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "besthomeappliances95@gmail.com",
+      Password: "raj@41995",
+      To: 'k.rajeev094154@gmail.com',
+      From: "besthomeappliances95@gmail.com",
+      Subject: "Testing",
+      Body: "Well that was easy!!",
+    })
+      .then(function (message) {
+        alert("mail sent successfully")
+      });
+      alert('sent');
+  }*/
